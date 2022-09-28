@@ -54,7 +54,6 @@ html{
     background-color:  hsl(225, 100%, 98%);
     border-radius: 10px;
     margin: 0 1.2rem;
-    /* padding: 1.5rem .4rem; */
     padding-left: 1rem;
     padding-right: 1rem;
     margin-bottom: 1rem;
@@ -115,9 +114,6 @@ html{
         padding: 0 1.2rem;
     }
   
-    .plan{
-        padding-top: .8rem;
-    }
    
 
     
