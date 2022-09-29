@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: 0;
     
 }
 html,body{
@@ -23,31 +26,31 @@ html{
     font-family: 'Red Hat Display', sans-serif;
 }
 
-#container{
+.container{
     text-align: center;
     border-radius: 10px;
     background-color: #fff;
     margin: 1.4rem;
 
 }    
-#container img{
+.container img{
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-bottom: 1.25rem;
 }
-#title{
+.title{
     margin-bottom: 1.25rem;
     
 }
-#text{
+.text{
     color: hsl(224, 23%, 55%);
     font-weight: 400;
     padding: 0 1rem;
     line-height: 1.6;
     margin-bottom: 1.25rem;
 }
-#card{
+.card{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,30 +61,31 @@ html{
     padding-right: 1rem;
     margin-bottom: 1rem;
 }
-#card-content{
+.card-content{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#card-content img{
+.card-content img{
     padding-top: 1rem;
 }
 
-#card-content p{
+.card-content p{
     font-weight: 900;
     margin-left: 1rem;
    
 }
-#card-content p span{
+.card-content p span{
     display: block;
     font-weight: 400;
     color:hsl(224, 23%, 55%);
     padding-top: .2rem;
 }
-#card a{
+.card a{
     color: hsl(245, 75%, 52%);
     font-weight: 700; 
-    padding-right: .5rem;  
+    padding-right: .5rem; 
+    text-decoration: underline; 
 }
 .card-payment{
     background-color: hsl(245, 75%, 52%);
@@ -91,8 +95,9 @@ html{
     border-radius: 10px;
     margin:0 1.2rem;
     margin-bottom: 1rem;
+    display: block;
 }
-#cancel{
+.cancel{
     text-decoration: none;
     color: hsl(224, 23%, 55%);
     font-weight: 900;
@@ -106,11 +111,11 @@ html{
         background-repeat: no-repeat;
         background-size: contain;
     }
-    #container{
+    .container{
         width: 400px;
         margin-bottom: 3rem;
     }
-    #text{
+    .text{
         padding: 0 1.2rem;
     }
   
